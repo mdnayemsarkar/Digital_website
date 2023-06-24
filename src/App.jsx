@@ -14,7 +14,7 @@ import Card from "./Card";
 import Footer from "./Footer";
 
 const MyComponent = () => {
-  const words = [' product', 'React Website', 'Responsive site', 'Dynamic website', 'Change'];
+  const words = ['Dynamic website', 'React Website',  'product','Responsive site', 'Change'];
   const [currentWordIndex, setCurrentWordIndex] = useState(0);
   const [showWord, setShowWord] = useState(true);
 
